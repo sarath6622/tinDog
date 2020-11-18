@@ -52,7 +52,7 @@ p {
   padding-top: 0;
   padding-bottom: 15%;
 }
-@media (min-width: 900px) {
+@media only screen and (max-width: 600px) {
   .img1 {
     transform: rotate(25deg);
     position: absolute;
