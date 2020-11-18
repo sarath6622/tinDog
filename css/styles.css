@@ -62,6 +62,16 @@ p {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .img1 {
+    transform: rotate(25deg);
+    position: absolute;
+    padding-bottom: 35%;
+    margin-top: -10%;
+    padding-left: 45%;
+  }
+}
 
 .btn-outline-dark {
   color: white;
