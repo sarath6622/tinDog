@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Ubuntu-thin', sans-serif;
-  margin:0;
+  margin: 0;
 }
 
 h1 {
@@ -12,7 +12,6 @@ h1 {
   font-size: 3.5rem;
   color: white;
   padding-top: 15%;
-
   line-height: 1.5;
   z-index: 1;
 }
@@ -26,10 +25,11 @@ h2 {
   color: white;
   text-align: center;
 }
+
 .footerhead {
   font-family: 'Ubuntu-thick', sans-serif;
-padding-top: 1%;
- padding-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-size: 2rem;
   color: white;
   text-align: center;
@@ -38,9 +38,9 @@ padding-top: 1%;
 p {
   color: grey;
 }
+
 .navbar {
   padding-left: 0;
-
 }
 
 .button {
@@ -49,19 +49,19 @@ p {
 
 .container-fluid {
   padding: 5% 15%;
-  padding-top: 0px;
+  padding-top: 0;
   padding-bottom: 15%;
 }
-
-.img1 {
-
-  transform: rotate(25deg);
-  position: absolute;
-  padding-bottom: 35%;
-  margin-top: -200px;
-  padding-left: 45%;
-
+@media (min-width: 900px) {
+  .img1 {
+    transform: rotate(25deg);
+    position: absolute;
+    padding-bottom: 35%;
+    margin-top: -10%;
+    padding-left: 45%;
+  }
 }
+
 
 .btn-outline-dark {
   color: white;
@@ -81,8 +81,6 @@ p {
 .div-img1:hover {
   color: red;
 }
-
-
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -149,16 +147,16 @@ p {
   color: black;
 }
 
-#cta,#footer{
+#cta, #footer {
   text-align: center;
   color: white;
   background-color: #ff4c68;
 }
-.footer{
+
+.footer {
   text-align: center;
   color: white;
   background-color: #ff4c68;
-  color:white;
   padding-top: 10px;
   margin-bottom: 0;
 }
