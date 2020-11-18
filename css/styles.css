@@ -11,7 +11,8 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   color: white;
-  padding-top: 35%;
+  padding-top: 15%;
+
   line-height: 1.5;
   z-index: 1;
 }
@@ -25,9 +26,21 @@ h2 {
   color: white;
   text-align: center;
 }
+.footerhead {
+  font-family: 'Ubuntu-thick', sans-serif;
+padding-top: 1%;
+ padding-bottom: 1%;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
 
 p {
   color: grey;
+}
+.navbar {
+  padding-left: 0;
+
 }
 
 .button {
@@ -36,14 +49,17 @@ p {
 
 .container-fluid {
   padding: 5% 15%;
+  padding-top: 0px;
+  padding-bottom: 15%;
 }
 
 .img1 {
 
   transform: rotate(25deg);
   position: absolute;
+  padding-bottom: 35%;
   margin-top: -200px;
-  padding-left: 50%;
+  padding-left: 45%;
 
 }
 
@@ -66,9 +82,7 @@ p {
   color: red;
 }
 
-.navbar {
-  padding-left: 0;
-}
+
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -140,6 +154,11 @@ p {
   color: white;
   background-color: #ff4c68;
 }
-.footeer{
+.footer{
+  text-align: center;
+  color: white;
+  background-color: #ff4c68;
   color:white;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
