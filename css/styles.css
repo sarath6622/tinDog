@@ -65,7 +65,7 @@ p {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .img1 {
-    transform: rotate(25deg);
+    transform: rotate(0);
     position: absolute;
     padding-bottom: 35%;
     margin-top: -10%;
